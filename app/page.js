@@ -21,9 +21,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-blue-50 p-4">
-      <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
+      <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
         <h1 className="text-2xl font-bold mb-6 text-center">Search Recipes</h1>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-4">
           <label className="sr-only" htmlFor="query">
             Recipe
           </label>
